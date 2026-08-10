@@ -1,48 +1,50 @@
-# Whatsapp_chat_Analyser
- WhatsApp Chat Analyzer
-An interactive Streamlit web app to analyze WhatsApp group or personal chat data. Upload your exported .txt chat file and get instant insights like:
+# WhatsApp Chat Analyzer
 
-🔢 Total messages, words, media, links
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://whatsapp-chat-analyser-1-d7g7.onrender.com/)
 
-📅 Monthly activity timeline
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/RahulRaj535/Whatsapp_chat_Analyser)
 
-🕐 Hourly message distribution
+## 📌 Project Overview
 
-💬 Most active users (group chats)
+WhatsApp Chat Analyzer is an NLP and data analytics application that analyzes exported WhatsApp chat data and generates useful insights about conversations, users, activity, and word usage.
 
-☁️ Word cloud visualization
+## 🚀 Live Demo
 
-📊 Most common words (filtered by stopwords)
+👉 **Try the application:**  
+https://whatsapp-chat-analyser-1-d7g7.onrender.com/
 
-🔍 User-wise filtering and stats
+## 🛠️ Technologies Used
 
-🚀 Features
-✅ Simple drag-and-drop file upload
-✅ Analysis for individual users or overall chat
-✅ Timeline & word frequency graphs
-✅ Powered by Streamlit, Pandas, and Matplotlib
-✅ Custom stopword filtering (Hinglish support)
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Matplotlib
+- NLP
+- WordCloud
 
-🧾 How to Use
-Export your WhatsApp chat as .txt (without media).
+## ✨ Features
 
-Open the app (locally or deployed).
+- Total messages analysis
+- Total words analysis
+- Media sharing statistics
+- Link sharing statistics
+- Monthly timeline
+- Most active days
+- Most active months
+- Most active users
+- Word cloud
+- Most common words
+- Interactive Streamlit dashboard
 
-Upload the file via the sidebar.
+## 📂 Project Structure
 
-Select a user or overall analysis.
-
-Click Show Analysis to explore the insights.
-
-📦 Tech Stack
-Python 3.x
-
-Streamlit
-
-Pandas
-
-Matplotlib
-
-WordCloud
-
-
+```text
+Whatsapp_chat_Analyser/
+│
+├── app.py
+├── preprocessing.py
+├── helper.py
+├── requirements.txt
+├── README.md
+└── chatAnalyser (1).ipynb
